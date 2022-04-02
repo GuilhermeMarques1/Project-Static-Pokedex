@@ -1,0 +1,113 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #DADFE8;
+}
+
+.pokedex {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+.pokemonCards {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  display: none;
+}
+
+.pokemonCards .infoTop {
+  padding: 30px 40px 0;
+}
+
+.pokemonCards .pokemonImage {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemonCards .pokemonImage img {
+  max-width: 30vh;
+  max-height: 40vh;
+}
+
+.pokemonCards .name {
+  margin-bottom: 5px;
+}
+
+.pokemonCards .type {
+  font-size: 14px;
+	background-color: #ffffff;
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 2px 10px;
+  width: fit-content;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pokemonCards .details {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.pokemonCards .pokemonInfo {
+  display: flex;
+	justify-content: space-between;
+	background-color: #ffffff;
+	padding: 80px 30px 50px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-top: -12%;
+}
+
+.pokemonCards .pokemonInfo h3 {
+  font-size: 20px;
+	margin-bottom: 15px;
+	border-bottom: 1.5px solid #6B727A;
+}
+
+.pokemonCards .pokemonInfo .status,
+.pokemonCards .pokemonInfo .skills {
+  padding: 0px 20px;
+  width: 180px;
+}
+
+.pokemonCards .pokemonInfo .status ul li,
+.pokemonCards .pokemonInfo .skills ul li {
+  border-bottom: 1px solid #C3C4C5;
+  padding: 0 0 2px;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.pokemonCards.open {
+  display: block;
+}
+
+.pokemonCards .infoTop.pikachu {
+  background-color: #FCC719;
+}
+
+.pokemonCards .infoTop.bulbassaur {
+  background-color: #49D0B0;
+}
+
+.pokemonCards .infoTop.charmander {
+  background-color: #ED8A8B;
+}
+
+.pokemonCards .infoTop.gyarados {
+  background-color: #76BEFE;
+}
+
+.pokemonCards .infoTop.gengar {
+  background-color: #BA68C8;
+}
+
+.pokemonCards .infoTop.dragonite {
+  background-color: #c29791;
+}

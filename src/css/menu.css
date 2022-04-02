@@ -1,0 +1,38 @@
+.menuRight {
+  max-width: 200px;
+}
+
+.menuRight ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #6b727a;
+  color: #ffffff;
+  padding: 0 6px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+
+.menuRight ul li:hover {
+  transform: scale(1.05);
+}
+
+.menuRight span {
+	padding-right: 20px;
+}
+
+.menuRight ul li.selected {
+	background-color: #FA6668;
+}
+
+.menuRight ul li span {
+  padding-left: 10px;
+}
+
+.menuRight img {
+  margin: 2px;
+  max-width: 60px;
+  border-radius: 50%;
+}

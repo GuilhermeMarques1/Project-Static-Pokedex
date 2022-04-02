@@ -1,0 +1,269 @@
+<!DOCTYPE html> <!-- Tag que Define que é um html -->
+<html lang="en"> <!-- Tag que engloba o código html diz a linguagem da página (en ou pt-BR) -->
+  <head> <!-- Informações de definição da página -->
+    <meta charset="UTF-8" />  <!-- Define os caracteres que vamos usar no site (~ ´'...) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />  <!-- janela de exibição e informações de tamanho -->
+    <title>Pokédex</title>  <!-- Título que aparece no navegador  -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!-- favicon ícone que aparece no navegador -->
+		<meta name="description" content="pokédex"> <!-- descrição -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;800&display=swap');
+    </style>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+  </head>
+  <body>
+		<div class="pokedex">
+      <div class="cards">
+        <div class="pokemonCards open" id="card-pikachu">
+            <div class="infoTop pikachu">
+              <div class="details">
+                <h2 class="name">Pikachu</h2>
+                <span>#001</span>
+              </div>
+
+              <span class="type">Elétrico</span>
+
+              <div class="pokemonImage">
+                <img src="src/images/pikachu.png" alt="Imagem do Pikachu" >
+              </div>
+            </div>
+  
+  
+            <div class="pokemonInfo">
+              <div class="status">
+                <h3>Status</h3>
+                <ul>
+                  <li>HP: 300</li>
+                  <li>Ataque: 600</li>
+                  <li>Defesa: 50</li>
+                  <li>Velocidade: 600</li>
+                </ul>
+              </div>
+  
+              <div class="skills">
+                <h3>Habilidades</h3>
+                <ul>
+                  <li>Choque do trovão</li>
+                  <li>Cabeçada</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+
+        <div class="pokemonCards" id="card-bulbassaur">
+          <div class="infoTop bulbassaur">
+            <div class="details">
+              <h2 class="name">Bulbassaur</h2>
+              <span>#002</span>
+            </div>
+
+            <span class="type">Folha</span>
+
+            <div class="pokemonImage">
+              <img src="src/images/bulbasaur.png" alt="Imagem do Pikachu" >
+            </div>
+          </div>
+
+
+          <div class="pokemonInfo">
+            <div class="status">
+              <h3>Status</h3>
+              <ul>
+                <li>HP: 500</li>
+                <li>Ataque: 400</li>
+                <li>Defesa: 200</li>
+                <li>Velocidade: 200</li>
+              </ul>
+            </div>
+
+            <div class="skills">
+              <h3>Habilidades</h3>
+              <ul>
+                <li>Folha Navalha</li>
+                <li>Raio solar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="pokemonCards" id="card-charmander">
+          <div class="infoTop charmander">
+            <div class="details">
+              <h2 class="name">Charmander</h2>
+              <span>#003</span>
+            </div>
+
+            <span class="type">Fogo</span>
+
+            <div class="pokemonImage">
+              <img src="src/images/charmander.png" alt="Imagem do Pikachu" >
+            </div>
+          </div>
+
+
+          <div class="pokemonInfo">
+            <div class="status">
+              <h3>Status</h3>
+              <ul>
+                <li>HP: 400</li>
+                <li>Ataque: 500</li>
+                <li>Defesa: 200</li>
+                <li>Velocidade: 400</li>
+              </ul>
+            </div>
+
+            <div class="skills">
+              <h3>Habilidades</h3>
+              <ul>
+                <li>Lança chamas</li>
+                <li>Cabeçada</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="pokemonCards" id="card-gyarados">
+          <div class="infoTop gyarados">
+            <div class="details">
+              <h2 class="name">Gyarados</h2>
+              <span>#004</span>
+            </div>
+
+            <span class="type">Água</span>
+
+            <div class="pokemonImage">
+              <img src="src/images/gyarados.png" alt="Imagem do Pikachu" >
+            </div>
+          </div>
+
+
+          <div class="pokemonInfo">
+            <div class="status">
+              <h3>Status</h3>
+              <ul>
+                <li>HP: 600</li>
+                <li>Ataque: 500</li>
+                <li>Defesa: 350</li>
+                <li>Velocidade: 100</li>
+              </ul>
+            </div>
+
+            <div class="skills">
+              <h3>Habilidades</h3>
+              <ul>
+                <li>Hidro bomba</li>
+                <li>Fúria do Dragão</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="pokemonCards" id="card-gengar">
+          <div class="infoTop gengar">
+            <div class="details">
+              <h2 class="name">Gengar</h2>
+              <span>#005</span>
+            </div>
+
+            <span class="type">Fantasma</span>
+
+            <div class="pokemonImage">
+              <img src="src/images/gengar.png" alt="Imagem do Pikachu" >
+            </div>
+          </div>
+
+
+          <div class="pokemonInfo">
+            <div class="status">
+              <h3>Status</h3>
+              <ul>
+                <li>HP: 250</li>
+                <li>Ataque: 400</li>
+                <li>Defesa: 400</li>
+                <li>Velocidade: 320</li>
+              </ul>
+            </div>
+
+            <div class="skills">
+              <h3>Habilidades</h3>
+              <ul>
+                <li>Hipnose</li>
+                <li>Vibração Sombria</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="pokemonCards" id="card-dragonite">
+          <div class="infoTop dragonite">
+            <div class="details">
+              <h2 class="name">Zoio</h2>
+              <span>#006</span>
+            </div>
+
+            <span class="type">Motorista de up</span>
+
+            <div class="pokemonImage">
+              <img src="src/images/zoio1-removebg-preview.png" alt="Imagem do Pikachu" >
+            </div>
+          </div>
+
+
+          <div class="pokemonInfo">
+            <div class="status">
+              <h3>Status</h3>
+              <ul>
+                <li>HP: 10</li>
+                <li>Ataque: 5</li>
+                <li>Defesa: 4</li>
+                <li>Velocidade: 260</li>
+              </ul>
+            </div>
+
+            <div class="skills">
+              <h3>Habilidades</h3>
+              <ul>
+                <li>Rabo de fogo</li>
+                <li>Acelerada do up</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menuRight">
+        <ul>
+          <li class="pokemon selected" id="pikachu">
+            <img src="src/images/cabeca-pikachu.png" alt="">
+            <span>Pikachu</span>
+          </li>
+          <li class="pokemon" id="bulbassaur">
+            <img src="src/images/cabeca-bulbasaur.png" alt="">
+            <span>Bulbassaur</span>
+          </li>
+          <li class="pokemon" id="charmander">
+            <img src="src/images/cabeca-charmander.png" alt="">
+            <span>Charmander</span>
+          </li>
+          <li class="pokemon" id="gyarados">
+            <img src="src/images/cabeca-gyarados.png" alt="">
+            <span>Gyarados</span>
+          </li>
+          <li class="pokemon" id="gengar">
+            <img src="src/images/cabeca-gengar.png" alt="">
+            <span>Gengar</span>
+          </li>
+          <li class="pokemon" id="dragonite">
+            <img src="src/images/zoio-cabeca.jpeg" alt="">
+            <span>Zoio</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="src/js/index.js"></script>
+	</body>
+</html>
